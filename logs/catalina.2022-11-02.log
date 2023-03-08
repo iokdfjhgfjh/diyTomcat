@@ -1,0 +1,1441 @@
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 119 ms
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 6 ms
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 2 ms
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 8 ms
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 09:42:43 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 09:43:29 上午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@17346b0f 检测到了Web应用下的重要文件变化 HelloServlet.class 
+11 02, 2022 09:43:29 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 09:43:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:43:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 3 ms
+11 02, 2022 09:43:29 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 09:44:20 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 09:44:20 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 09:46:41 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 09:46:44 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 104 ms
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 4 ms
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 3 ms
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 09:47:29 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 09:48:34 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 09:50:52 上午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@17346b0f 检测到了Web应用下的重要文件变化 web.xml 
+11 02, 2022 09:50:52 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 09:50:52 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:50:52 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 3 ms
+11 02, 2022 09:50:52 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 09:52:21 上午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@30287f4e 检测到了Web应用下的重要文件变化 HelloServlet.class 
+11 02, 2022 09:52:21 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 09:52:21 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:52:21 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 5 ms
+11 02, 2022 09:52:21 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 99 ms
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 4 ms
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 2 ms
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 11 ms
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 09:52:53 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 09:53:34 上午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@6705c616 检测到了Web应用下的重要文件变化 HelloServlet.class 
+11 02, 2022 09:53:34 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 09:53:34 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:53:34 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 7 ms
+11 02, 2022 09:53:34 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 86 ms
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 4 ms
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 9 ms
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 09:54:04 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 09:54:09 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 10:07:03 上午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@5ede37d8 检测到了Web应用下的重要文件变化 web.xml 
+11 02, 2022 10:07:03 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 10:07:03 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 10:07:03 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 5 ms
+11 02, 2022 10:07:03 上午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 94 ms
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 4 ms
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 11 ms
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 10:08:28 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 10:08:32 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 10:08:32 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:08:32 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:08:32 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:09:17 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 90 ms
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 5 ms
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 10 ms
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 10:11:01 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 3 ms
+11 02, 2022 10:11:09 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 10:11:09 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:11:09 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:11:09 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 90 ms
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 6 ms
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 2 ms
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 10:11:51 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 10 ms
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 10:11:52 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 10:11:57 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:11:57 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:11:57 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 10:11:57 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:12:30 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.ParamServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 90 ms
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 6 ms
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 10 ms
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 10:15:24 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 10:15:35 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 10:15:35 上午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 16:30:05 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@2d6afe5d 检测到了Web应用下的重要文件变化 web.xml 
+11 02, 2022 16:30:05 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 16:30:05 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 16:30:05 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 8 ms
+11 02, 2022 16:30:05 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 225 ms
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 47 ms
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 2 ms
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 2 ms
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 11 ms
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 16:30:23 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 5 ms
+11 02, 2022 16:30:33 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HeaderServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HeaderServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HeaderServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 16:30:33 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 16:30:33 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 16:33:01 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@2d6afe5d 检测到了Web应用下的重要文件变化 HeaderServlet.class 
+11 02, 2022 16:33:01 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 16:33:01 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 16:33:01 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 7 ms
+11 02, 2022 16:33:01 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 16:33:14 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 16:33:14 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 321 ms
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 48 ms
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 2 ms
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 67 ms
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 19:49:10 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 12 ms
+11 02, 2022 19:49:21 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:49:21 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.GetCookieServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.GetCookieServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.GetCookieServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:49:21 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 19:49:21 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:49:35 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@291a8281 检测到了Web应用下的重要文件变化 GetCookieServlet.class 
+11 02, 2022 19:49:35 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 19:49:35 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 19:49:35 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 6 ms
+11 02, 2022 19:49:35 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 19:49:42 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:49:42 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:49:43 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 90 ms
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 5 ms
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 10 ms
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 3 ms
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 19:51:09 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 8 ms
+11 02, 2022 19:51:17 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 19:51:17 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.SetCookieServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:51:18 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:54:11 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@2d6afe5d 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+11 02, 2022 19:54:11 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 19:54:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 19:54:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 4 ms
+11 02, 2022 19:54:11 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 19:54:17 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 19:54:17 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 117 ms
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 8 ms
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 11 ms
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 19:54:27 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 19:54:35 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11 02, 2022 19:54:35 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 20:40:53 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@2d6afe5d 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+11 02, 2022 20:40:53 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 20:40:53 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 20:40:53 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 12 ms
+11 02, 2022 20:40:53 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@316a4662 检测到了Web应用下的重要文件变化 web.xml 
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 5 ms
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@44ae6fda 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 4 ms
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@14b85cd7 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 6 ms
+11 02, 2022 20:41:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 109 ms
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 8 ms
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 2 ms
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 13 ms
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 20:41:25 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 2 ms
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\a
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\a has finished in 90 ms
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\j2ee
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\j2ee has finished in 6 ms
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\diytomcat\webapps\ROOT
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\diytomcat\webapps\ROOT has finished in 1 ms
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/diytomcat/b
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/diytomcat/b has finished in 1 ms
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/javaweb/web
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/javaweb/web has finished in 12 ms
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\Eclipse\Java\jdk1.8.0_211\jre
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_211-b12
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+11 02, 2022 20:41:51 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+11 02, 2022 20:41:59 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+java.lang.RuntimeException: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:41)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: cn.how2j.javaweb.HelloServlet
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:36)
+	... 5 more
+11 02, 2022 20:41:59 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:40)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:43)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
