@@ -1,0 +1,6 @@
+# diyTomcat
+这个项目是作者参考Tomcat源码，自制的一个具备servlet容器功能的web服务器。用户需要配置server.xml对web应用进行部署，配置信息包括端口号、web应用文件存放的绝对路径、web应用匹配的请求路径等。
+部署完毕后再启动BootStrap类运行diyTomcat，此时便可接收浏览器请求进行处理。DiyTomcat参考Tomcat的系统架构，实现了Server、service、Connector、Engine、Host、Context，Server主要负责日志
+打印，我们日常启动应用时打印出来的日志文件大多都在Server层面打印，Service主要负责新建Connector和Engine，通过线程池去创建多个Connector去监听多个端口，Connector通过socket监听某个端口，
+根据浏览器访问请求解析出对应的信息封装在request对象当中，例如：cookie，访问路径，访问参数，是否压缩等，Httpprocess类则去根据request对象去实现相应的逻辑，例如根据request的访问路径得到
+对应的Context，Context就是我们的web应用，每个web应用中又有对应的web.xml文件去配置对应是servlet（也就是我们所说的控制类），再通过反射去实现对应的servlet类执行相应的方法（doGet doPost）
